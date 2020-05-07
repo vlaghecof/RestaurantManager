@@ -1,0 +1,9 @@
+Order from date :Wed May 06 15:04:31 EEST 2020
+Table : 22
+  
+Ordered items: 
+Salat costing 150.0
+Salat costing 150.0
+Red Wine costing 700.0
+
+Total: 1000
