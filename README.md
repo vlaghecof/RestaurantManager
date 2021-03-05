@@ -13,12 +13,25 @@ Observer Pattern: that notifies the chef when a client orders a CompositeProduct
   
 Other features: The program comes with a JavaDoc to explain the classes and a jar file for an easy run of the application. The menu is serialized each time the application closes ( that 
 was a building requirement ).  
- 
+   
+This is the starting page  : 
+ <p align="center">
+<img src="https://github.com/vlaghecof/RestaurantManager/blob/master/out/begin.jpg" height="200em" align="center"  />
+ </p>
 Administrator :   
 It is the only one capable of modifying the menu. It can add a new product, or change an already existing one, or simply delete an item from the menu. 
 The logic here was quite simple, if the product that was inserted already exists, the changes will be made to it and saved back in the file, if the product does not exist,
-it will be added. // insert picture here
+it will be added. 
+<img src="https://github.com/vlaghecof/RestaurantManager/blob/master/out/Admin.jpg" height="200em" />;
 
 Waiter :  
 First of all the waiter chooses a table number, and then it starts adding items to the order. When the waiter wants it can select
 generate the bill, which will tell the total cost of all the items that were ordered and will also generate a text file with the details of the order.
+<p align="center">
+<img src="https://github.com/vlaghecof/RestaurantManager/blob/master/out/waiter.jpg" height="400em" align="center"  />
+ </p>
+ 
+ And finally how the menu would look like  :
+ <p align="center">
+<img src="https://github.com/vlaghecof/RestaurantManager/blob/master/out/Menu.jpg" height="400em" align="center"  />
+ </p>
